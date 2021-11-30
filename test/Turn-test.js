@@ -19,19 +19,23 @@ describe ('Turn', function() {
   });
 
   it('should instantiate a new instance of Turn', function () {
-    expect(turn).to.be.an.instanceof(Turn)
+    expect(turn).to.be.an.instanceof(Turn);
   });
 
   it('should be able to have a guess', function() {
-    expect(turn.guess).to.equal("iteration method")
+    expect(turn.guess).to.equal("iteration method");
   });
     
   it('should have a card', function() {
-    expect(turn.card).to.equal(card)
+    expect(turn.card).to.equal(card);
   });
 
   it('should return a guess', function() {
-    expect(turn.returnGuess()).to.equal("iteration method")
+    expect(turn.returnGuess()).to.equal("iteration method");
+  });
+
+  it('should return a card', function() {
+    expect(turn.returnCard()).to.equal(card);
   });
 
 });

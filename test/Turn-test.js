@@ -23,7 +23,11 @@ describe ('Turn', function() {
 
   it('should be a function', function() {
     expect(Turn).to.be.a('function');
-  })
+  });
+
+  it('should instantiate a new instance of Turn', function () {
+    expect(turn).to.be.an.instanceof(Turn)
+  });
     
 
 });

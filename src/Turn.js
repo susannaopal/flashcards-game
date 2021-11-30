@@ -14,7 +14,7 @@ class Turn {
 
   evaluateGuess() {
     if (this.guess === this.card.correctAnswer) {
-      return true; 
+      return true;
     } else {
       return false;
     }
@@ -31,5 +31,3 @@ class Turn {
 };
 
 module.exports = Turn;
-
-// giveFeedback - method that returns either ‘incorrect!’ or ‘correct!’ based on whether the guess is correct or not.

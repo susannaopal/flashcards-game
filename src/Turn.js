@@ -3,6 +3,7 @@ class Turn {
     this.guess = guess;
     this.card = card;
   }
+
   returnGuess() {
     return this.guess;
   }
@@ -10,14 +11,25 @@ class Turn {
   returnCard() {
     return this.card;
   }
+
   evaluateGuess() {
-      console.log(this.guess)
-      if (this.guess === this.card.correctAnswer) {
-          return true 
-      } else {
-          return false;
-      }
+    if (this.guess === this.card.correctAnswer) {
+      return true; 
+    } else {
+      return false;
+    }
   }
-}
+
+  giveFeedback() {
+    if(this.evaluateGuess()) {
+      return 'Correct!';
+    } else {
+      return 'Incorrect!';
+    }
+  }
+
+};
 
 module.exports = Turn;
+
+// giveFeedback - method that returns either ‘incorrect!’ or ‘correct!’ based on whether the guess is correct or not.

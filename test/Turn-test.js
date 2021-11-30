@@ -5,7 +5,7 @@ const Card = require('../src/Card');
 
 
 describe ('Turn', function() {
-  let turn;
+  let turn1;
   let turn2;
   let card;
 
@@ -27,7 +27,7 @@ describe ('Turn', function() {
   it('should be able to have a guess', function() {
     expect(turn.guess).to.equal("iteration method");
   });
-    
+
   it('should have a card', function() {
     expect(turn.card).to.equal(card);
   });
@@ -51,4 +51,3 @@ describe ('Turn', function() {
   });
 
 });
-

@@ -4,7 +4,7 @@ const Turn = require('../src/Turn');
 const Card = require('../src/Card');
 
 
-describe ('Turn', function() {
+describe('Turn', function() {
   let turn1;
   let turn2;
   let card;

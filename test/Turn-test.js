@@ -23,11 +23,15 @@ describe ('Turn', function() {
   });
 
   it('should be able to have a guess', function() {
-      expect(turn.guess).to.equal("iteration method")
+    expect(turn.guess).to.equal("iteration method")
   });
     
   it('should have a card', function() {
-      expect(turn.card).to.equal(card)
+    expect(turn.card).to.equal(card)
+  });
+
+  it('should return a guess', function() {
+    expect(turn.returnGuess()).to.equal("iteration method")
   });
 
 });

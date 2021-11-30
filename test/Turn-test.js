@@ -4,13 +4,6 @@ const Turn = require('../src/Turn');
 const Card = require('../src/Card');
 
 
-// Your Turn class should meet the following requirements:
-// Instantiated with two arguments - a string (that represents a user’s guess to the question), and a Card object for the current card in play.
-// returnGuess: method that returns the guess
-// returnCard: method that returns the Card
-// evaluateGuess: method that returns a boolean indicating if the user’s guess matches the correct answer on the card
-// giveFeedb
-
 describe ('Turn', function() {
   let turn;
   let card;
@@ -28,7 +21,14 @@ describe ('Turn', function() {
   it('should instantiate a new instance of Turn', function () {
     expect(turn).to.be.an.instanceof(Turn)
   });
+
+  it('should be able to have a guess', function() {
+      expect(turn.guess).to.equal("iteration method")
+  });
     
+  it('should have a card', function() {
+      expect(turn.card).to.equal(card)
+  });
 
 });
 

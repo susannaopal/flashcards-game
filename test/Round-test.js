@@ -32,4 +32,9 @@ describe('Round', function() {
 it('should have a current card', function() {
   expect(round.currentCard).to.equal(card1)
   });
+
+it('should return a current card', function() {
+  expect(round.returnCard()).to.equal(card1)
+});
+
 });

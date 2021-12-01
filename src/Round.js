@@ -14,7 +14,7 @@ class Round {
   };
 
   takeTurn() {
-    const turn = new Turn()
+    let turn = new Turn()
     this.turnsCounter += 1;
 
   };

@@ -43,8 +43,8 @@ describe('Round', function() {
     expect(round.turnsCounter).to.be.equal(1);
   });
 
-  it('should evaluate a guess', function() {
-    
-  });
+  // it('should evaluate a guess', function() {
+  //
+  // });
 
 });

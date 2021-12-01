@@ -18,8 +18,7 @@ class Round{
     if (turn.evaluateGuess() === false){
       this.incorrectGuesses.push(this.currentCard.id)
     };
-
-    this.turn +=1;
+    this.turn += 1;
     this.currentCard = this.deck.deck[this.turn];
     return turn.giveFeedback()
   };

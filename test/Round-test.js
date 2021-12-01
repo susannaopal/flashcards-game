@@ -19,15 +19,15 @@ describe('Round', function() {
     round = new Round(deck);
     });
 
-  it('should be a function', function(){
+  it('should be a function', function() {
     expect(Round).to.be.a('function');
   });
 
-  it('should instiate a new instance of round', function(){
+  it('should instiate a new instance of round', function() {
     expect(round).to.be.an.instanceOf(Round);
   });
 
-  it('should have a current card', function(){
+  it('should have a current card', function() {
     expect(round.currentCard).to.equal(card1);
   });
 
@@ -35,16 +35,27 @@ describe('Round', function() {
     expect(round.deck).to.deep.equal(deck);
   });
 
-  it('keeps track of number of turns', function(){
+  it('keeps track of number of turns', function() {
     expect(round.turn).to.equal(0);
     round.takeTurn();
     expect(round.turn).to.equal(1);
   });
 
-  it('should go onto the next card', function(){
+  it('should go onto the next card', function() {
     expect(round.currentCard).to.equal(card1);
     round.takeTurn();
     expect(round.currentCard).to.equal(card2);
+  });
+
+  it('should record incorrect guesses', function() {
+    expect(round.incorrectGuesses).to.deep.equal([]);
+    round.takeTurn();
+    expect(round.incorrectGuesses).to.deep.equal([card1.id]);
+  });
+
+  it('should return feedback', function() {
+    expect(round.takeTurn("function")).to.equal("Incorrect!");
+    expect(round.takeTurn("array")).to.equal("Correct!")
   });
 
 });

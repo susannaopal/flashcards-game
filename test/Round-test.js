@@ -29,12 +29,18 @@ describe('Round', function() {
     expect(round).to.be.an.instanceof(Round);
   });
 
-it('should have a current card', function() {
-  expect(round.currentCard).to.equal(card1)
+  it('should have a current card', function() {
+    expect(round.currentCard).to.equal(card1);
   });
 
-it('should return a current card', function() {
-  expect(round.returnCard()).to.equal(card1)
-});
+  it('should return a current card', function() {
+    expect(round.returnCard()).to.equal(card1);
+  });
+
+  it('should count the number of turns', function() {
+    expect(round.turnsCounter).to.equal(0);
+    round.takeTurn();
+    expect(round.turnsCounter).to.be.equal(1);
+  });
 
 });

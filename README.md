@@ -14,7 +14,6 @@
 
 # GIPHY
 
-
 # Setup Instructions
 * To play:
 

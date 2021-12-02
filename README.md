@@ -14,14 +14,16 @@
 
 # Setup Instructions
 - To play:
-  - open command line on terminal
-  - clone the repo to your machine from gitHub
-  - cd into the directory (flashcards_game)
-  - type "node index.js" into the terminal line
-  - press return to start the Game
-  - once the game has begun, use the up or down arrow keys to select your answer and then press return
-  - when gameplay is complete, player will see score
-  - player can play multiple rounds of the game
+
+# Install 
+- Open command line on user terminal 
+- Clone into terminal use: `` git@github.com:susannaopal/flashcards-game.git ``
+- After cloning down, enter ``npm install `` into the terminal command line
+- Then enter into the game's director using: ``cd flashcards-starter ``
+- Then type into the command line `` npm install ``
+- Hit return to begin the game on the terminal line
+- The user will then be given a "card" to answer by selecting their answer utilizing the up or down arrow keys and hit return after they make their selection
+- When the user has played through all of their cards, the user will see a percentage of the correct answers scored  
 
 # Project Spec
 - [Access project spec](https://frontend.turing.edu/projects/flash-cards.html)

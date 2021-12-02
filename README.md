@@ -24,13 +24,12 @@
   - player can play multiple rounds of the game
 
 # Project Spec
-- Access project spec[link](https://frontend.turing.edu/projects/flash-cards.html)
+- [Access project spec](https://frontend.turing.edu/projects/flash-cards.html)
 
 # Contributor
-- Susanna Carey[link](https://github.com/susannaopal)
+- [Susanna Carey](https://github.com/susannaopal)
 
 # Project Board
-- Access project board[link](https://github.com/susannaopal/flashcards-game/projects/1)
+- [Access project board](https://github.com/susannaopal/flashcards-game/projects/1)
 
 
----

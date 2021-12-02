@@ -5,7 +5,7 @@ const Card = require('../src/Card');
 
 
 describe('Turn', function() {
-  let turn1;
+  let turn;
   let turn2;
   let card;
 

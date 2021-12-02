@@ -13,22 +13,16 @@ class Turn {
   }
 
   evaluateGuess() {
-    // if (this.guess === this.card.correctAnswer) {
-    //   return true;
-    // } else {
-    //   return false;
-    // }
     return this.guess === this.card.correctAnswer;
   }
 
   giveFeedback() {
-    if(this.evaluateGuess()) {
+    if (this.evaluateGuess()) {
       return 'Correct!';
     } else {
       return 'Incorrect!';
     }
   }
-
-};
+}
 
 module.exports = Turn;

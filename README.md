@@ -14,13 +14,13 @@
 - GitHub
 
 # DEMO
-`Game play begins`
+- Game play begins
 ![Screen Shot 2021-12-02 at 6 45 24 PM](https://user-images.githubusercontent.com/83846677/144521119-ae089a2d-1e14-4365-8821-dfde8f9296ed.png)
 
-`Player's user experience demonstrated`
+- Player's user experience demonstrated
 ![Screen Shot 2021-12-02 at 6 45 41 PM](https://user-images.githubusercontent.com/83846677/144520994-fb5e8190-a223-47c8-a168-fad955c870b5.png)
 
-`Player's view when game ends`
+- Player's view when game ends
 ![Screen Shot 2021-12-02 at 6 46 16 PM](https://user-images.githubusercontent.com/83846677/144521141-cc65e3bf-231c-4034-a373-758f7c6576c4.png)
 
 

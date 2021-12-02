@@ -12,11 +12,14 @@
 - Node
 - ATOM
 
-# Setup Instructions
-- To play:
+# GIPHY
 
-# Install 
-- Open command line on user terminal 
+
+# Setup Instructions
+* To play:
+
+# Install
+- Open command line on user terminal
 - Clone into terminal use: `` git@github.com:susannaopal/flashcards-game.git ``
 - After cloning down, enter ``npm install `` into the terminal command line
 - Then enter into the game's director using: ``cd flashcards-starter ``
@@ -33,5 +36,3 @@
 
 # Project Board
 - [Access project board](https://github.com/susannaopal/flashcards-game/projects/1)
-
-

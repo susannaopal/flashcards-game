@@ -55,7 +55,7 @@ describe('Round', function() {
 
   it('should return feedback', function () {
     expect(round.takeTurn("function")).to.equal("Incorrect!");
-    expect(round.takeTurn("array")).to.equal("Correct!")
+    expect(round.takeTurn("array")).to.equal("Correct!");
   });
 
   it('should calculate the percentage of correct guesses', function () {
@@ -70,5 +70,4 @@ describe('Round', function() {
     round.takeTurn("array");
     expect(round.endRound()).to.equal(`** Round over! ** You answered 50% of the questions correctly!`);
   });
-
 });

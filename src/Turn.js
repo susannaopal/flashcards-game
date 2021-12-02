@@ -13,11 +13,12 @@ class Turn {
   }
 
   evaluateGuess() {
-    if (this.guess === this.card.correctAnswer) {
-      return true;
-    } else {
-      return false;
-    }
+    // if (this.guess === this.card.correctAnswer) {
+    //   return true;
+    // } else {
+    //   return false;
+    // }
+    return this.guess === this.card.correctAnswer;
   }
 
   giveFeedback() {

@@ -9,7 +9,7 @@ class Game {
   constructor() {}
     start() {
     const cardDeck = prototypeQuestions.map((card) => {
-        return card = new Card;
+        return card = new Card(card.id, card.question, card.answers, card.correctAnswer);
       });
     const deck = new Deck(cardDeck);
     this.currentRound = new Round(deck);

@@ -11,6 +11,7 @@
 - Chai
 - Node
 - ATOM
+- GitHub
 
 # DEMO
 `Game play begins`

@@ -9,7 +9,7 @@ class Round{
   };
 
   returnCurrentCard(){
-    return this.currentCard
+    return this.currentCard;
   };
 
   takeTurn(guess){
@@ -20,7 +20,13 @@ class Round{
     };
     this.turn += 1;
     this.currentCard = this.deck.deck[this.turn];
-    return turn.giveFeedback()
+    return turn.giveFeedback();
+  };
+
+  calculatePercentCorrect() {
+    const guessesTotal = this.turn;
+    const totalCorrect = guessesTotal - this.incorrectGuesses.length;
+    return (totalCorrect / guessesTotal) * 100
   };
 };
 

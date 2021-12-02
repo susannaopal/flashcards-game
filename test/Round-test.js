@@ -58,4 +58,11 @@ describe('Round', function() {
     expect(round.takeTurn("array")).to.equal("Correct!")
   });
 
+  it('should calculate the percentage of correct guesses', function() {
+    expect(round.calculatePercentCorrect()).to.be.a("number");
+    round.takeTurn("function");
+    round.takeTurn("array");
+    expect(round.calculatePercentCorrect()).to.equal(50);
+  });
+
 });

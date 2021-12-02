@@ -17,7 +17,7 @@ describe('Round', function() {
     card3 = new Card(3, "What type of prototype method directly modifies the existing array?", ["mutator method", "accessor method", "iteration method"], "mutator method");
     deck = new Deck([card1, card2, card3]);
     round = new Round(deck);
-    });
+  });
 
   it('should be a function', function () {
     expect(Round).to.be.a('function');

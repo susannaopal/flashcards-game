@@ -20,7 +20,7 @@ npm install
 
 To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
 
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
+Running `node index.js` from the root of your project should result in the following message being displayed in your terminal:
 
 ```bash
 Node server running on port 3000
@@ -74,6 +74,42 @@ The test results will output to the terminal.
 
 Run the command in your terminal `npm run lint` to run the linter on your JavaScript code. There will be errors and warnings right from the start in this starter kit - the linter is still running successfully.
 
-Your linter will look at the JavaScript files you have within the `src` directory and the `test` directory. 
+Your linter will look at the JavaScript files you have within the `src` directory and the `test` directory.
+
+
+# READ ME
+
+# Flashcards Game (Mod 2 Solo Project)
+
+## Abstract:
+- FlashCards is a trivia card game. Users play on through the CLI (Command-Line-Interface) to answer coding related questions. Players receive a card and must answer correctly in order to gain points. At the end of the game, a player will receive their total score out of 100% based on questions answered correctly.
+
+# Technologies Used
+- JavaScript
+- Mocha
+- Chai
+- Node
+- ATOM
+
+# Setup Instructions
+- To play:
+  - open command line on terminal
+  - clone the repo to your machine from gitHub
+  - cd into the directory (flashcards_game)
+  - type "node index.js" into the terminal line
+  - press return to start the Game
+  - once the game has begun, use the up or down arrow keys to select your answer and then press return
+  - when gameplay is complete, player will see score
+  - player can play multiple rounds of the game
+
+# Project Spec
+- Access project spec[link](https://frontend.turing.edu/projects/flash-cards.html)
+
+# Contributor
+- Susanna Carey[link](https://github.com/susannaopal)
+
+# Project Board
+- Access project board[link](https://github.com/susannaopal/flashcards-game/projects/1)
+
 
 ---
